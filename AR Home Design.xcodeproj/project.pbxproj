@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B312D02858BA770009E6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312CF2858BA770009E6F9 /* AppDelegate.swift */; };
+		84B312D22858BA770009E6F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D12858BA770009E6F9 /* SceneDelegate.swift */; };
+		84B312D42858BA770009E6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D32858BA770009E6F9 /* ViewController.swift */; };
+		84B312D72858BA770009E6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B312D52858BA770009E6F9 /* Main.storyboard */; };
+		84B312DA2858BA770009E6F9 /* AR_Home_Design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D82858BA770009E6F9 /* AR_Home_Design.xcdatamodeld */; };
+		84B312DC2858BA780009E6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B312DB2858BA780009E6F9 /* Assets.xcassets */; };
+		84B312DF2858BA780009E6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B312DD2858BA780009E6F9 /* LaunchScreen.storyboard */; };
+		84B312EA2858BA790009E6F9 /* AR_Home_DesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312E92858BA790009E6F9 /* AR_Home_DesignTests.swift */; };
+		84B312F42858BA790009E6F9 /* AR_Home_DesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312F32858BA790009E6F9 /* AR_Home_DesignUITests.swift */; };
+		84B312F62858BA790009E6F9 /* AR_Home_DesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312F52858BA790009E6F9 /* AR_Home_DesignUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B312E62858BA790009E6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B312C42858BA760009E6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B312CB2858BA770009E6F9;
+			remoteInfo = "AR Home Design";
+		};
+		84B312F02858BA790009E6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B312C42858BA760009E6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B312CB2858BA770009E6F9;
+			remoteInfo = "AR Home Design";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B312CC2858BA770009E6F9 /* AR Home Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Home Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B312CF2858BA770009E6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84B312D12858BA770009E6F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84B312D32858BA770009E6F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84B312D62858BA770009E6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B312D92858BA770009E6F9 /* AR_Home_Design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AR_Home_Design.xcdatamodel; sourceTree = "<group>"; };
+		84B312DB2858BA780009E6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B312DE2858BA780009E6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B312E02858BA780009E6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B312E52858BA790009E6F9 /* AR Home DesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Home DesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B312E92858BA790009E6F9 /* AR_Home_DesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Home_DesignTests.swift; sourceTree = "<group>"; };
+		84B312EF2858BA790009E6F9 /* AR Home DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Home DesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B312F32858BA790009E6F9 /* AR_Home_DesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Home_DesignUITests.swift; sourceTree = "<group>"; };
+		84B312F52858BA790009E6F9 /* AR_Home_DesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Home_DesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B312C92858BA770009E6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B312E22858BA790009E6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B312EC2858BA790009E6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B312C32858BA760009E6F9 = {
+			isa = PBXGroup;
+			children = (
+				84B312CE2858BA770009E6F9 /* AR Home Design */,
+				84B312E82858BA790009E6F9 /* AR Home DesignTests */,
+				84B312F22858BA790009E6F9 /* AR Home DesignUITests */,
+				84B312CD2858BA770009E6F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B312CD2858BA770009E6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B312CC2858BA770009E6F9 /* AR Home Design.app */,
+				84B312E52858BA790009E6F9 /* AR Home DesignTests.xctest */,
+				84B312EF2858BA790009E6F9 /* AR Home DesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B312CE2858BA770009E6F9 /* AR Home Design */ = {
+			isa = PBXGroup;
+			children = (
+				84B312CF2858BA770009E6F9 /* AppDelegate.swift */,
+				84B312D12858BA770009E6F9 /* SceneDelegate.swift */,
+				84B312D32858BA770009E6F9 /* ViewController.swift */,
+				84B312D52858BA770009E6F9 /* Main.storyboard */,
+				84B312DB2858BA780009E6F9 /* Assets.xcassets */,
+				84B312DD2858BA780009E6F9 /* LaunchScreen.storyboard */,
+				84B312E02858BA780009E6F9 /* Info.plist */,
+				84B312D82858BA770009E6F9 /* AR_Home_Design.xcdatamodeld */,
+			);
+			path = "AR Home Design";
+			sourceTree = "<group>";
+		};
+		84B312E82858BA790009E6F9 /* AR Home DesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B312E92858BA790009E6F9 /* AR_Home_DesignTests.swift */,
+			);
+			path = "AR Home DesignTests";
+			sourceTree = "<group>";
+		};
+		84B312F22858BA790009E6F9 /* AR Home DesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B312F32858BA790009E6F9 /* AR_Home_DesignUITests.swift */,
+				84B312F52858BA790009E6F9 /* AR_Home_DesignUITestsLaunchTests.swift */,
+			);
+			path = "AR Home DesignUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B312CB2858BA770009E6F9 /* AR Home Design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B312F92858BA790009E6F9 /* Build configuration list for PBXNativeTarget "AR Home Design" */;
+			buildPhases = (
+				84B312C82858BA770009E6F9 /* Sources */,
+				84B312C92858BA770009E6F9 /* Frameworks */,
+				84B312CA2858BA770009E6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Home Design";
+			productName = "AR Home Design";
+			productReference = 84B312CC2858BA770009E6F9 /* AR Home Design.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B312E42858BA790009E6F9 /* AR Home DesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B312FC2858BA790009E6F9 /* Build configuration list for PBXNativeTarget "AR Home DesignTests" */;
+			buildPhases = (
+				84B312E12858BA790009E6F9 /* Sources */,
+				84B312E22858BA790009E6F9 /* Frameworks */,
+				84B312E32858BA790009E6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B312E72858BA790009E6F9 /* PBXTargetDependency */,
+			);
+			name = "AR Home DesignTests";
+			productName = "AR Home DesignTests";
+			productReference = 84B312E52858BA790009E6F9 /* AR Home DesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B312EE2858BA790009E6F9 /* AR Home DesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B312FF2858BA790009E6F9 /* Build configuration list for PBXNativeTarget "AR Home DesignUITests" */;
+			buildPhases = (
+				84B312EB2858BA790009E6F9 /* Sources */,
+				84B312EC2858BA790009E6F9 /* Frameworks */,
+				84B312ED2858BA790009E6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B312F12858BA790009E6F9 /* PBXTargetDependency */,
+			);
+			name = "AR Home DesignUITests";
+			productName = "AR Home DesignUITests";
+			productReference = 84B312EF2858BA790009E6F9 /* AR Home DesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B312C42858BA760009E6F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					84B312CB2858BA770009E6F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					84B312E42858BA790009E6F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 84B312CB2858BA770009E6F9;
+					};
+					84B312EE2858BA790009E6F9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 84B312CB2858BA770009E6F9;
+					};
+				};
+			};
+			buildConfigurationList = 84B312C72858BA760009E6F9 /* Build configuration list for PBXProject "AR Home Design" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B312C32858BA760009E6F9;
+			productRefGroup = 84B312CD2858BA770009E6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B312CB2858BA770009E6F9 /* AR Home Design */,
+				84B312E42858BA790009E6F9 /* AR Home DesignTests */,
+				84B312EE2858BA790009E6F9 /* AR Home DesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B312CA2858BA770009E6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B312DF2858BA780009E6F9 /* LaunchScreen.storyboard in Resources */,
+				84B312DC2858BA780009E6F9 /* Assets.xcassets in Resources */,
+				84B312D72858BA770009E6F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B312E32858BA790009E6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B312ED2858BA790009E6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B312C82858BA770009E6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B312D42858BA770009E6F9 /* ViewController.swift in Sources */,
+				84B312D02858BA770009E6F9 /* AppDelegate.swift in Sources */,
+				84B312D22858BA770009E6F9 /* SceneDelegate.swift in Sources */,
+				84B312DA2858BA770009E6F9 /* AR_Home_Design.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B312E12858BA790009E6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B312EA2858BA790009E6F9 /* AR_Home_DesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B312EB2858BA790009E6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B312F62858BA790009E6F9 /* AR_Home_DesignUITestsLaunchTests.swift in Sources */,
+				84B312F42858BA790009E6F9 /* AR_Home_DesignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B312E72858BA790009E6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B312CB2858BA770009E6F9 /* AR Home Design */;
+			targetProxy = 84B312E62858BA790009E6F9 /* PBXContainerItemProxy */;
+		};
+		84B312F12858BA790009E6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B312CB2858BA770009E6F9 /* AR Home Design */;
+			targetProxy = 84B312F02858BA790009E6F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B312D52858BA770009E6F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B312D62858BA770009E6F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B312DD2858BA780009E6F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B312DE2858BA780009E6F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B312F72858BA790009E6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B312F82858BA790009E6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B312FA2858BA790009E6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53M7K278XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR Home Design/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Danit-Weill.AR-Home-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B312FB2858BA790009E6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53M7K278XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR Home Design/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Danit-Weill.AR-Home-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84B312FD2858BA790009E6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53M7K278XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Danit-Weill.AR-Home-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Home Design.app/AR Home Design";
+			};
+			name = Debug;
+		};
+		84B312FE2858BA790009E6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53M7K278XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Danit-Weill.AR-Home-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Home Design.app/AR Home Design";
+			};
+			name = Release;
+		};
+		84B313002858BA790009E6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53M7K278XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Danit-Weill.AR-Home-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Home Design";
+			};
+			name = Debug;
+		};
+		84B313012858BA790009E6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53M7K278XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Danit-Weill.AR-Home-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Home Design";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B312C72858BA760009E6F9 /* Build configuration list for PBXProject "AR Home Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B312F72858BA790009E6F9 /* Debug */,
+				84B312F82858BA790009E6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B312F92858BA790009E6F9 /* Build configuration list for PBXNativeTarget "AR Home Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B312FA2858BA790009E6F9 /* Debug */,
+				84B312FB2858BA790009E6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B312FC2858BA790009E6F9 /* Build configuration list for PBXNativeTarget "AR Home DesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B312FD2858BA790009E6F9 /* Debug */,
+				84B312FE2858BA790009E6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B312FF2858BA790009E6F9 /* Build configuration list for PBXNativeTarget "AR Home DesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B313002858BA790009E6F9 /* Debug */,
+				84B313012858BA790009E6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84B312D82858BA770009E6F9 /* AR_Home_Design.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84B312D92858BA770009E6F9 /* AR_Home_Design.xcdatamodel */,
+			);
+			currentVersion = 84B312D92858BA770009E6F9 /* AR_Home_Design.xcdatamodel */;
+			path = AR_Home_Design.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84B312C42858BA760009E6F9 /* Project object */;
+}
