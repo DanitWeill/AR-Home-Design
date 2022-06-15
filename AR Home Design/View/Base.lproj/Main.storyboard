@@ -5,13 +5,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AR_Home_Design" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="WelcomeViewController" customClass="ViewController" customModule="AR_Home_Design" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="-22" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--ChoosingFurnitureVC-->
         <scene sceneID="PVE-O5-ylu">
             <objects>
-                <viewController id="jfw-pu-XAI" sceneMemberID="viewController">
+                <viewController id="jfw-pu-XAI" userLabel="ChoosingFurnitureVC" customClass="ChooseFurnitureVC" customModule="AR_Home_Design" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z4o-DS-upQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,42 +86,88 @@
                                 <state key="normal" title="DONE!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="doneButtonPressed:" destination="jfw-pu-XAI" eventType="touchUpInside" id="Kix-vt-hvi"/>
+                                </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yb-Ae-TNf">
                                 <rect key="frame" x="0.0" y="703" width="414" height="44"/>
                                 <items>
-                                    <barButtonItem title="Sofa" width="81.5" id="5ug-N9-xRB"/>
-                                    <barButtonItem title="Lamp" width="116.5" id="kpO-hd-Eye"/>
-                                    <barButtonItem title="Table" width="94" id="f0q-BS-Zx6"/>
-                                    <barButtonItem title="Rug" width="245.5" id="d2n-LN-BAk"/>
+                                    <barButtonItem title="Sofa" width="81.5" id="5ug-N9-xRB">
+                                        <connections>
+                                            <action selector="sofaCollection:" destination="jfw-pu-XAI" id="xWr-KG-oEF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Lamp" width="116.5" id="kpO-hd-Eye">
+                                        <connections>
+                                            <action selector="lampCollection:" destination="jfw-pu-XAI" id="eqd-Py-GO5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Table" width="94" id="f0q-BS-Zx6">
+                                        <connections>
+                                            <action selector="tableCollection:" destination="jfw-pu-XAI" id="coS-qZ-DCc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Rug" width="245.5" id="d2n-LN-BAk">
+                                        <connections>
+                                            <action selector="wallpaperCollection:" destination="jfw-pu-XAI" id="hVY-ve-hOK"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ln3-yj-zLt">
+                                <rect key="frame" x="20" y="156" width="374" height="517"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YBD-wc-fMk">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gZu-4i-nH5">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="p7J-EI-R7e">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lm3-NZ-ftZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lm3-NZ-ftZ" firstAttribute="trailing" secondItem="VGO-LZ-WVu" secondAttribute="trailing" constant="20" id="22a-26-yi1"/>
+                            <constraint firstItem="6Yb-Ae-TNf" firstAttribute="top" secondItem="ln3-yj-zLt" secondAttribute="bottom" constant="30" id="4bF-aN-a9g"/>
                             <constraint firstItem="Foi-uV-GHv" firstAttribute="centerX" secondItem="Z4o-DS-upQ" secondAttribute="centerX" id="A7q-Rt-W16"/>
                             <constraint firstItem="Foi-uV-GHv" firstAttribute="top" secondItem="6Yb-Ae-TNf" secondAttribute="bottom" constant="15" id="GK1-g4-ZxD"/>
                             <constraint firstItem="VGO-LZ-WVu" firstAttribute="leading" secondItem="lm3-NZ-ftZ" secondAttribute="leading" constant="20" id="IaP-9O-FkC"/>
                             <constraint firstItem="lm3-NZ-ftZ" firstAttribute="trailing" secondItem="vIq-Nj-Mtc" secondAttribute="trailing" constant="20" id="JLt-yv-xWI"/>
                             <constraint firstItem="vIq-Nj-Mtc" firstAttribute="leading" secondItem="lm3-NZ-ftZ" secondAttribute="leading" constant="20" id="MUw-LK-AfY"/>
+                            <constraint firstItem="lm3-NZ-ftZ" firstAttribute="trailing" secondItem="ln3-yj-zLt" secondAttribute="trailing" constant="20" id="cdT-Jn-U9s"/>
                             <constraint firstItem="VGO-LZ-WVu" firstAttribute="top" secondItem="lm3-NZ-ftZ" secondAttribute="top" constant="40" id="cxE-S3-d7r"/>
                             <constraint firstItem="6Yb-Ae-TNf" firstAttribute="trailing" secondItem="lm3-NZ-ftZ" secondAttribute="trailing" id="g1c-qO-l46"/>
+                            <constraint firstItem="ln3-yj-zLt" firstAttribute="leading" secondItem="lm3-NZ-ftZ" secondAttribute="leading" constant="20" id="gh3-lh-hC9"/>
                             <constraint firstItem="vIq-Nj-Mtc" firstAttribute="bottom" secondItem="lm3-NZ-ftZ" secondAttribute="bottom" id="nzM-Ol-9RN"/>
                             <constraint firstItem="6Yb-Ae-TNf" firstAttribute="leading" secondItem="lm3-NZ-ftZ" secondAttribute="leading" id="wTx-B6-L4W"/>
+                            <constraint firstItem="ln3-yj-zLt" firstAttribute="top" secondItem="VGO-LZ-WVu" secondAttribute="bottom" constant="30" id="wei-p9-o3k"/>
                             <constraint firstItem="vIq-Nj-Mtc" firstAttribute="top" secondItem="Foi-uV-GHv" secondAttribute="bottom" constant="10" id="zst-nn-Ld7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="ln3-yj-zLt" id="hak-pC-arZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3dj-XV-iEc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949" y="104"/>
+            <point key="canvasLocation" x="947.82608695652186" y="103.79464285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--ARRoomVC-->
         <scene sceneID="tFP-dg-dUt">
             <objects>
-                <viewController id="Z8G-Hh-JeW" sceneMemberID="viewController">
+                <viewController id="Z8G-Hh-JeW" userLabel="ARRoomVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ARG-ho-ktZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -207,10 +254,10 @@
             </objects>
             <point key="canvasLocation" x="1941" y="104"/>
         </scene>
-        <!--View Controller-->
+        <!--poppingMessageVC-->
         <scene sceneID="Ydj-DM-Yih">
             <objects>
-                <viewController id="V2X-8W-syK" sceneMemberID="viewController">
+                <viewController id="V2X-8W-syK" userLabel="poppingMessageVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ha-zR-2aw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
