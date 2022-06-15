@@ -103,8 +103,9 @@
 			children = (
 				84B312CF2858BA770009E6F9 /* AppDelegate.swift */,
 				84B312D12858BA770009E6F9 /* SceneDelegate.swift */,
-				84B312D32858BA770009E6F9 /* ViewController.swift */,
-				84B312D52858BA770009E6F9 /* Main.storyboard */,
+				84B313022858C2520009E6F9 /* Model */,
+				84B313032858C2660009E6F9 /* View */,
+				84B313042858C27C0009E6F9 /* Controller */,
 				84B312DB2858BA780009E6F9 /* Assets.xcassets */,
 				84B312DD2858BA780009E6F9 /* LaunchScreen.storyboard */,
 				84B312E02858BA780009E6F9 /* Info.plist */,
@@ -128,6 +129,29 @@
 				84B312F52858BA790009E6F9 /* AR_Home_DesignUITestsLaunchTests.swift */,
 			);
 			path = "AR Home DesignUITests";
+			sourceTree = "<group>";
+		};
+		84B313022858C2520009E6F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84B313032858C2660009E6F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84B312D52858BA770009E6F9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84B313042858C27C0009E6F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84B312D32858BA770009E6F9 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
