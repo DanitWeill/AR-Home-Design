@@ -13,10 +13,10 @@
 		84277A5C285F0CBB007EE08E /* SofaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84277A5A285F0CBB007EE08E /* SofaCollectionViewCell.xib */; };
 		84277A5E285F10D0007EE08E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277A5D285F10D0007EE08E /* WelcomeViewController.swift */; };
 		84277A61285F12AA007EE08E /* FurniturePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277A60285F12AA007EE08E /* FurniturePicture.swift */; };
+		84277A63285F1649007EE08E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 84277A62285F1649007EE08E /* art.scnassets */; };
 		84B312D02858BA770009E6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312CF2858BA770009E6F9 /* AppDelegate.swift */; };
 		84B312D22858BA770009E6F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D12858BA770009E6F9 /* SceneDelegate.swift */; };
 		84B312D72858BA770009E6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B312D52858BA770009E6F9 /* Main.storyboard */; };
-		84B312DA2858BA770009E6F9 /* AR_Home_Design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D82858BA770009E6F9 /* AR_Home_Design.xcdatamodeld */; };
 		84B312DC2858BA780009E6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B312DB2858BA780009E6F9 /* Assets.xcassets */; };
 		84B312DF2858BA780009E6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B312DD2858BA780009E6F9 /* LaunchScreen.storyboard */; };
 		84B312EA2858BA790009E6F9 /* AR_Home_DesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312E92858BA790009E6F9 /* AR_Home_DesignTests.swift */; };
@@ -51,11 +51,11 @@
 		84277A5A285F0CBB007EE08E /* SofaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SofaCollectionViewCell.xib; sourceTree = "<group>"; };
 		84277A5D285F10D0007EE08E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		84277A60285F12AA007EE08E /* FurniturePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurniturePicture.swift; sourceTree = "<group>"; };
+		84277A62285F1649007EE08E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		84B312CC2858BA770009E6F9 /* AR Home Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Home Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B312CF2858BA770009E6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B312D12858BA770009E6F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84B312D62858BA770009E6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84B312D92858BA770009E6F9 /* AR_Home_Design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AR_Home_Design.xcdatamodel; sourceTree = "<group>"; };
 		84B312DB2858BA780009E6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B312DE2858BA780009E6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B312E02858BA780009E6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,9 +131,9 @@
 				84B313032858C2660009E6F9 /* View */,
 				84B313042858C27C0009E6F9 /* Controller */,
 				84B312DB2858BA780009E6F9 /* Assets.xcassets */,
+				84277A62285F1649007EE08E /* art.scnassets */,
 				84B312DD2858BA780009E6F9 /* LaunchScreen.storyboard */,
 				84B312E02858BA780009E6F9 /* Info.plist */,
-				84B312D82858BA770009E6F9 /* AR_Home_Design.xcdatamodeld */,
 			);
 			path = "AR Home Design";
 			sourceTree = "<group>";
@@ -283,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84277A5C285F0CBB007EE08E /* SofaCollectionViewCell.xib in Resources */,
+				84277A63285F1649007EE08E /* art.scnassets in Resources */,
 				84277A58285F0C3F007EE08E /* ARRoomCollectionViewCell.xib in Resources */,
 				84B312DF2858BA780009E6F9 /* LaunchScreen.storyboard in Resources */,
 				84B312DC2858BA780009E6F9 /* Assets.xcassets in Resources */,
@@ -319,7 +320,6 @@
 				84277A57285F0C3F007EE08E /* ARRoomCollectionViewCell.swift in Sources */,
 				84277A5B285F0CBB007EE08E /* SofaCollectionViewCell.swift in Sources */,
 				84277A61285F12AA007EE08E /* FurniturePicture.swift in Sources */,
-				84B312DA2858BA770009E6F9 /* AR_Home_Design.xcdatamodeld in Sources */,
 				84B3131C285A52E60009E6F9 /* PoppingMessageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -662,19 +662,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		84B312D82858BA770009E6F9 /* AR_Home_Design.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84B312D92858BA770009E6F9 /* AR_Home_Design.xcdatamodel */,
-			);
-			currentVersion = 84B312D92858BA770009E6F9 /* AR_Home_Design.xcdatamodel */;
-			path = AR_Home_Design.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 84B312C42858BA760009E6F9 /* Project object */;
 }

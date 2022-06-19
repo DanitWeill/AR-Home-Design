@@ -140,7 +140,7 @@ class ChooseFurnitureVC: UIViewController, UICollectionViewDelegate, UICollectio
         // logic
         
         if collectionType == "sofa"{
-            cell.configure(imageCell: UIImage (named: furniturePictures.sofa[indexPath.row])!, addRemoveBool: sofaBoolArray[indexPath.row])
+            cell.configure(imageCell: UIImage (named: furniturePictures.sofa[indexPath.row])! , addRemoveBool: sofaBoolArray[indexPath.row])
             
         }else if collectionType == "table"{
             cell.configure(imageCell: UIImage (named: FurniturePicture().table[indexPath.row])!, addRemoveBool: tableBoolArray[indexPath.row])

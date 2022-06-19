@@ -42,6 +42,10 @@
                 <constraint firstItem="Kgr-D5-wic" firstAttribute="top" secondItem="PBi-3l-eAP" secondAttribute="bottom" constant="3" id="xrV-jg-qnR"/>
             </constraints>
             <size key="customSize" width="162" height="154"/>
+            <connections>
+                <outlet property="addRemoveLabel" destination="Kgr-D5-wic" id="Bc8-cD-z8V"/>
+                <outlet property="imageView" destination="PBi-3l-eAP" id="3wB-mT-DTz"/>
+            </connections>
             <point key="canvasLocation" x="218.84057971014494" y="148.66071428571428"/>
         </collectionViewCell>
     </objects>
