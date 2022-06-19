@@ -175,7 +175,7 @@
         <!--ARRoomVC-->
         <scene sceneID="tFP-dg-dUt">
             <objects>
-                <viewController id="Z8G-Hh-JeW" userLabel="ARRoomVC" sceneMemberID="viewController">
+                <viewController id="Z8G-Hh-JeW" userLabel="ARRoomVC" customClass="ARRoomVC" customModule="AR_Home_Design" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ARG-ho-ktZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,8 +257,20 @@
                             <constraint firstItem="zDJ-kB-fe2" firstAttribute="trailing" secondItem="1ZO-ZB-JZU" secondAttribute="trailing" id="isd-5y-Gb8"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="6uB-sL-Jqz"/>
+                    <navigationItem key="navigationItem" id="6uB-sL-Jqz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="JMs-w3-RpN">
+                            <connections>
+                                <action selector="takePic:" destination="Z8G-Hh-JeW" id="1u7-68-GaN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="ARRoomCollectionView" destination="J0n-Kj-heU" id="1f2-pE-SI5"/>
+                        <outlet property="downArrow" destination="AaA-Fg-Cth" id="Afo-Iw-kOI"/>
+                        <outlet property="leftArrow" destination="Nbx-Dd-WYB" id="1TT-XW-ZRe"/>
+                        <outlet property="rightArrow" destination="vkL-Uh-dcO" id="ndg-lf-SlZ"/>
+                        <outlet property="sceneView" destination="zDJ-kB-fe2" id="Lw0-cL-KRS"/>
+                        <outlet property="upArrow" destination="ORr-wK-RyQ" id="ED9-ug-KGJ"/>
                         <segue destination="V2X-8W-syK" kind="presentation" identifier="goToPoppingMessage" id="Ak7-ei-2r1"/>
                     </connections>
                 </viewController>
@@ -269,7 +281,7 @@
         <!--poppingMessageVC-->
         <scene sceneID="Ydj-DM-Yih">
             <objects>
-                <viewController id="V2X-8W-syK" userLabel="poppingMessageVC" sceneMemberID="viewController">
+                <viewController id="V2X-8W-syK" userLabel="poppingMessageVC" customClass="PoppingMessageVC" customModule="AR_Home_Design" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ha-zR-2aw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

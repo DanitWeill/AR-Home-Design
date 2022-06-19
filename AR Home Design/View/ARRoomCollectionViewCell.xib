@@ -39,6 +39,10 @@
                 <constraint firstAttribute="bottom" secondItem="ofP-jA-kuk" secondAttribute="bottom" id="oGU-Vi-40t"/>
             </constraints>
             <size key="customSize" width="136" height="119"/>
+            <connections>
+                <outlet property="chosenImageInCell" destination="V1Z-FL-V0e" id="IVk-z7-8wp"/>
+                <outlet property="circleBackground" destination="ofP-jA-kuk" id="sIk-Ik-9Fx"/>
+            </connections>
             <point key="canvasLocation" x="200.00000000000003" y="136.27232142857142"/>
         </collectionViewCell>
     </objects>
