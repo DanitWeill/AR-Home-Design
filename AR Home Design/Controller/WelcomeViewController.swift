@@ -15,7 +15,7 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
         
         homeLabel.text = "Home Design"
-//        label.font.withSize(50)
+//        homeLabel.font.withSize(100)
     }
 }
 
