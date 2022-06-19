@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To Save Your ARKit Scenes</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Allow camera to display cool AR content.</string>
 	<key>UIApplicationSceneManifest</key>
