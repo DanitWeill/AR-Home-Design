@@ -11,9 +11,10 @@
 		84277A58285F0C3F007EE08E /* ARRoomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84277A56285F0C3F007EE08E /* ARRoomCollectionViewCell.xib */; };
 		84277A5B285F0CBB007EE08E /* SofaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277A59285F0CBB007EE08E /* SofaCollectionViewCell.swift */; };
 		84277A5C285F0CBB007EE08E /* SofaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84277A5A285F0CBB007EE08E /* SofaCollectionViewCell.xib */; };
+		84277A5E285F10D0007EE08E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277A5D285F10D0007EE08E /* WelcomeViewController.swift */; };
+		84277A61285F12AA007EE08E /* FurniturePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277A60285F12AA007EE08E /* FurniturePicture.swift */; };
 		84B312D02858BA770009E6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312CF2858BA770009E6F9 /* AppDelegate.swift */; };
 		84B312D22858BA770009E6F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D12858BA770009E6F9 /* SceneDelegate.swift */; };
-		84B312D42858BA770009E6F9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D32858BA770009E6F9 /* WelcomeViewController.swift */; };
 		84B312D72858BA770009E6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B312D52858BA770009E6F9 /* Main.storyboard */; };
 		84B312DA2858BA770009E6F9 /* AR_Home_Design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D82858BA770009E6F9 /* AR_Home_Design.xcdatamodeld */; };
 		84B312DC2858BA780009E6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B312DB2858BA780009E6F9 /* Assets.xcassets */; };
@@ -24,7 +25,6 @@
 		84B31318285A52950009E6F9 /* ChooseFurnitureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B31317285A52940009E6F9 /* ChooseFurnitureVC.swift */; };
 		84B3131A285A52B80009E6F9 /* ARRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B31319285A52B80009E6F9 /* ARRoomVC.swift */; };
 		84B3131C285A52E60009E6F9 /* PoppingMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3131B285A52E60009E6F9 /* PoppingMessageVC.swift */; };
-		84B3131E285A53080009E6F9 /* FurnituresPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3131D285A53080009E6F9 /* FurnituresPictures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +49,11 @@
 		84277A56285F0C3F007EE08E /* ARRoomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARRoomCollectionViewCell.xib; sourceTree = "<group>"; };
 		84277A59285F0CBB007EE08E /* SofaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaCollectionViewCell.swift; sourceTree = "<group>"; };
 		84277A5A285F0CBB007EE08E /* SofaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SofaCollectionViewCell.xib; sourceTree = "<group>"; };
+		84277A5D285F10D0007EE08E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		84277A60285F12AA007EE08E /* FurniturePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurniturePicture.swift; sourceTree = "<group>"; };
 		84B312CC2858BA770009E6F9 /* AR Home Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Home Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B312CF2858BA770009E6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B312D12858BA770009E6F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84B312D32858BA770009E6F9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		84B312D62858BA770009E6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B312D92858BA770009E6F9 /* AR_Home_Design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AR_Home_Design.xcdatamodel; sourceTree = "<group>"; };
 		84B312DB2858BA780009E6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		84B31317285A52940009E6F9 /* ChooseFurnitureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFurnitureVC.swift; sourceTree = "<group>"; };
 		84B31319285A52B80009E6F9 /* ARRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRoomVC.swift; sourceTree = "<group>"; };
 		84B3131B285A52E60009E6F9 /* PoppingMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppingMessageVC.swift; sourceTree = "<group>"; };
-		84B3131D285A53080009E6F9 /* FurnituresPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FurnituresPictures.swift; path = "AR Home Design/Controller/FurnituresPictures.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84277A5F285F127D007EE08E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84277A60285F12AA007EE08E /* FurniturePicture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		84B312C32858BA760009E6F9 = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +127,7 @@
 			children = (
 				84B312CF2858BA770009E6F9 /* AppDelegate.swift */,
 				84B312D12858BA770009E6F9 /* SceneDelegate.swift */,
-				84B313022858C2520009E6F9 /* Model */,
+				84277A5F285F127D007EE08E /* Model */,
 				84B313032858C2660009E6F9 /* View */,
 				84B313042858C27C0009E6F9 /* Controller */,
 				84B312DB2858BA780009E6F9 /* Assets.xcassets */,
@@ -147,14 +155,6 @@
 			path = "AR Home DesignUITests";
 			sourceTree = "<group>";
 		};
-		84B313022858C2520009E6F9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				84B3131D285A53080009E6F9 /* FurnituresPictures.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		84B313032858C2660009E6F9 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +170,7 @@
 		84B313042858C27C0009E6F9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84B312D32858BA770009E6F9 /* WelcomeViewController.swift */,
+				84277A5D285F10D0007EE08E /* WelcomeViewController.swift */,
 				84B31317285A52940009E6F9 /* ChooseFurnitureVC.swift */,
 				84B31319285A52B80009E6F9 /* ARRoomVC.swift */,
 				84B3131B285A52E60009E6F9 /* PoppingMessageVC.swift */,
@@ -312,13 +312,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B31318285A52950009E6F9 /* ChooseFurnitureVC.swift in Sources */,
-				84B3131E285A53080009E6F9 /* FurnituresPictures.swift in Sources */,
-				84B312D42858BA770009E6F9 /* WelcomeViewController.swift in Sources */,
+				84277A5E285F10D0007EE08E /* WelcomeViewController.swift in Sources */,
 				84B312D02858BA770009E6F9 /* AppDelegate.swift in Sources */,
 				84B312D22858BA770009E6F9 /* SceneDelegate.swift in Sources */,
 				84B3131A285A52B80009E6F9 /* ARRoomVC.swift in Sources */,
 				84277A57285F0C3F007EE08E /* ARRoomCollectionViewCell.swift in Sources */,
 				84277A5B285F0CBB007EE08E /* SofaCollectionViewCell.swift in Sources */,
+				84277A61285F12AA007EE08E /* FurniturePicture.swift in Sources */,
 				84B312DA2858BA770009E6F9 /* AR_Home_Design.xcdatamodeld in Sources */,
 				84B3131C285A52E60009E6F9 /* PoppingMessageVC.swift in Sources */,
 			);
