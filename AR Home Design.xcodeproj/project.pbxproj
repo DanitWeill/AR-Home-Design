@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84277A57285F0C3F007EE08E /* ARRoomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84277A55285F0C3F007EE08E /* ARRoomCollectionViewCell.swift */; };
+		84277A58285F0C3F007EE08E /* ARRoomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84277A56285F0C3F007EE08E /* ARRoomCollectionViewCell.xib */; };
 		84B312D02858BA770009E6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312CF2858BA770009E6F9 /* AppDelegate.swift */; };
 		84B312D22858BA770009E6F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D12858BA770009E6F9 /* SceneDelegate.swift */; };
 		84B312D42858BA770009E6F9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B312D32858BA770009E6F9 /* WelcomeViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84277A55285F0C3F007EE08E /* ARRoomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRoomCollectionViewCell.swift; sourceTree = "<group>"; };
+		84277A56285F0C3F007EE08E /* ARRoomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARRoomCollectionViewCell.xib; sourceTree = "<group>"; };
 		84B312CC2858BA770009E6F9 /* AR Home Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Home Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B312CF2858BA770009E6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B312D12858BA770009E6F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				84B312D52858BA770009E6F9 /* Main.storyboard */,
+				84277A55285F0C3F007EE08E /* ARRoomCollectionViewCell.swift */,
+				84277A56285F0C3F007EE08E /* ARRoomCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84277A58285F0C3F007EE08E /* ARRoomCollectionViewCell.xib in Resources */,
 				84B312DF2858BA780009E6F9 /* LaunchScreen.storyboard in Resources */,
 				84B312DC2858BA780009E6F9 /* Assets.xcassets in Resources */,
 				84B312D72858BA770009E6F9 /* Main.storyboard in Resources */,
@@ -303,6 +310,7 @@
 				84B312D02858BA770009E6F9 /* AppDelegate.swift in Sources */,
 				84B312D22858BA770009E6F9 /* SceneDelegate.swift in Sources */,
 				84B3131A285A52B80009E6F9 /* ARRoomVC.swift in Sources */,
+				84277A57285F0C3F007EE08E /* ARRoomCollectionViewCell.swift in Sources */,
 				84B312DA2858BA770009E6F9 /* AR_Home_Design.xcdatamodeld in Sources */,
 				84B3131C285A52E60009E6F9 /* PoppingMessageVC.swift in Sources */,
 			);
