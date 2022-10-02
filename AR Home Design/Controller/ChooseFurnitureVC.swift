@@ -172,7 +172,8 @@ class ChooseFurnitureVC: UIViewController, UICollectionViewDelegate, UICollectio
     
     
     @IBAction func doneButtonPressed(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "goToARRoomVC", sender: self)
+        print("++++++++++++++++")
     }
     
     

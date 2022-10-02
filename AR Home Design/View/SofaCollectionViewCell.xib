@@ -24,6 +24,7 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="add" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgr-D5-wic">
                         <rect key="frame" x="3" y="126" width="156" height="25"/>
+                        <color key="backgroundColor" red="0.92848020789999997" green="0.79614436629999996" blue="0.45873802899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -31,6 +32,7 @@
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="Kgr-D5-wic" firstAttribute="top" secondItem="PBi-3l-eAP" secondAttribute="bottom" constant="3" id="PEs-cY-Pj3"/>
                 <constraint firstAttribute="trailing" secondItem="PBi-3l-eAP" secondAttribute="trailing" constant="3" id="bIh-oQ-NgE"/>
